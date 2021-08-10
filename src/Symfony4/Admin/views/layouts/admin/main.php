@@ -41,7 +41,7 @@ $this->registerCssFile('/dist/css/site.css');
             ]) ?>
         </aside>
     <?php endif; ?>
-    
+
     <div class="content-wrapper">
         <div class="content-header">
             <div class="container-fluid">
