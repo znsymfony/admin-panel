@@ -34,12 +34,14 @@ $this->registerCssFile('/dist/css/site.css');
         <?= $this->renderFile(__DIR__ . '/block/main-header.php') ?>
     </nav>
 
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
-        <?= $this->renderFile(__DIR__ . '/block/main-sidebar.php', [
+    <?php if(!empty($menuConfigFile)): ?>
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <?= $this->renderFile(__DIR__ . '/block/main-sidebar.php', [
                 'menuConfigFile' => $menuConfigFile,
-        ]) ?>
-    </aside>
-
+            ]) ?>
+        </aside>
+    <?php endif; ?>
+    
     <div class="content-wrapper">
         <div class="content-header">
             <div class="container-fluid">
