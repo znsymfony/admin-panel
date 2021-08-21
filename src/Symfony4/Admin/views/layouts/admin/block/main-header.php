@@ -10,7 +10,7 @@ use ZnBundle\Language\Symfony4\Widgets\Language\LanguageWidget;
 use ZnCore\Base\Legacy\Yii\Helpers\Url;
 use ZnLib\Web\View\View;
 use ZnLib\Web\Widgets\UserNavbarMenu\UserNavbarMenuWidget;
-use ZnSandbox\Sandbox\UserNotify\Yii2\Widgets\NotifyMenuWidget;
+use ZnUser\Notify\Yii2\Widgets\NotifyMenuWidget;
 
 //use Packages\User\Yii2\Widgets\UserNavbarMenu\UserNavbarMenuWidget;
 
