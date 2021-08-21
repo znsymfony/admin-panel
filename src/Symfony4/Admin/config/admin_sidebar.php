@@ -1,7 +1,7 @@
 <?php
 
 use ZnCore\Base\Legacy\Yii\Helpers\Url;
-use ZnSandbox\Sandbox\Casbin\Domain\Enums\Rbac\ExtraPermissionEnum;
+use ZnUser\Rbac\Domain\Enums\Rbac\ExtraPermissionEnum;
 
 return [
     [
