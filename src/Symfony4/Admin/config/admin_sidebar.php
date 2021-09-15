@@ -10,4 +10,16 @@ return [
         'icon' => 'fas fa-circle',
         'access' => [ExtraPermissionEnum::ADMIN_ONLY],
     ],
+
+    [
+        'label' => 'Rpc',
+        //'module' => 'rbac',
+        'access' => [ExtraPermissionEnum::ADMIN_ONLY],
+    ],
+    [
+        'label' => 'Client',
+        'url' => Url::to(['/rpc-client/request']),
+        'icon' => 'fas fa-circle',
+        'access' => [ExtraPermissionEnum::ADMIN_ONLY],
+    ],
 ];
