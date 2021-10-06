@@ -22,4 +22,16 @@ return [
         'icon' => 'fas fa-circle',
         'access' => [ExtraPermissionEnum::ADMIN_ONLY],
     ],
+
+    [
+        'label' => 'RBAC',
+        //'module' => 'rbac',
+        'access' => [ExtraPermissionEnum::ADMIN_ONLY],
+    ],
+    [
+        'label' => 'Info',
+        'url' => Url::to(['/rbac/info']),
+        'icon' => 'fas fa-circle',
+        'access' => [ExtraPermissionEnum::ADMIN_ONLY],
+    ],
 ];
