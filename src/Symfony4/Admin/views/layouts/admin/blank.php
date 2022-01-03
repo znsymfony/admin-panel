@@ -29,6 +29,7 @@ use ZnLib\Web\Widgets\Toastr\ToastrWidget;
 </head>
 <body>
 
+<?= \ZnLib\Web\Widgets\Alert\AlertWidget::widget() ?>
 <?= $content ?>
 
 <?= ToastrWidget::widget(['view' => $this]) ?>
