@@ -52,6 +52,7 @@ $this->registerCssFile('/dist/css/site.css');
         </div>
         <div class="content">
             <div class="container-fluid">
+                <?= \ZnLib\Web\Widgets\Alert\AlertWidget::widget() ?>
                 <?= $content ?>
             </div>
         </div>
