@@ -14,8 +14,8 @@ use ZnLib\Web\Widgets\Toastr\ToastrWidget;
 
 (new AdminAppAsset())->register($this);
 
-$this->registerCssFile('/dist/css/footer.css');
-$this->registerCssFile('/dist/css/site.css');
+//$this->registerCssFile('/dist/css/footer.css');
+//$this->registerCssFile('/dist/css/site.css');
 
 ?>
 
