@@ -15,8 +15,8 @@ use ZnLib\Web\Symfony4\MicroApp\Assets\AppAsset;
 
 (new AdminAppAsset())->register($this);
 
-//$this->registerCssFile('/dist/css/footer.css');
-//$this->registerCssFile('/dist/css/site.css');
+//$this->registerCssFile('/static/css/footer.css');
+//$this->registerCssFile('/static/css/site.css');
 
 ?>
 

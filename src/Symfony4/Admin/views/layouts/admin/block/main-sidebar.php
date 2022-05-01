@@ -15,7 +15,7 @@ use ZnLib\Web\Widgets\AdminLte3\Sidebar\SidebarWidget;
 ?>
 <!-- Brand Logo -->
 <a href="<?= Url::to('/admin') ?>" class="brand-link">
-    <img src="/dist/img/icon/cloud-network.png" alt="Logo" class="brand-image img-circle <!--elevation-3-->"
+    <img src="/static/img/icon/cloud-network.png" alt="Logo" class="brand-image img-circle <!--elevation-3-->"
          style="opacity: .8">
     <span class="brand-text font-weight-light">Admin panel</span>
 </a>
