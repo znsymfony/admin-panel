@@ -21,7 +21,7 @@ use ZnLib\Web\Widgets\BreadcrumbWidget;
 <div class="col-sm-6">
     <?php
     /** @var BreadcrumbWidget $breadcrumbWidget */
-    $breadcrumbWidget = Container::getInstance()->get(BreadcrumbWidget::class);
+    $breadcrumbWidget = \ZnCore\Base\Libs\Container\Helpers\ContainerHelper::getContainer()->get(BreadcrumbWidget::class);
     $breadcrumbWidget->wrapTemplate = '<ol class="breadcrumb float-sm-right">{items}</ol>';
     if (count($breadcrumbWidget->items) > 1) {
         echo $breadcrumbWidget->render();
