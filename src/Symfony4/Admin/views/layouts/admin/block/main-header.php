@@ -7,7 +7,7 @@
  */
 
 use ZnBundle\Language\Symfony4\Widgets\Language\LanguageWidget;
-use ZnCore\Base\Legacy\Yii\Helpers\Url;
+use ZnLib\Web\Helpers\Url;
 use ZnLib\Web\View\View;
 use ZnLib\Web\Widgets\UserNavbarMenu\UserNavbarMenuWidget;
 use ZnUser\Notify\Yii2\Widgets\NotifyMenuWidget;
